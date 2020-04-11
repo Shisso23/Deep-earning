@@ -144,10 +144,10 @@ class Ui_MainWindow(object):
 # "background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(255, 255, 255, 255));\n"
 # "font: 12pt \"MS Shell Dlg 2\";")
 #         self.pushButton_5.setObjectName("pushButton_5")
-        self.progressBar = QtWidgets.QProgressBar(self.frame);
-        self.progressBar.setObjectName("progressBar");
-        self.progressBar.setGeometry(QtCore.QRect(100, 360, 621, 41));
-        self.progressBar.setValue(0);
+        self.progressBar = QtWidgets.QProgressBar(self.frame)
+        self.progressBar.setObjectName("progressBar")
+        self.progressBar.setGeometry(QtCore.QRect(100, 360, 621, 41))
+        self.progressBar.setValue(0)
 
         self.tabWidget.addTab(self.tab_2, "")
         self.tab_3 = QtWidgets.QWidget()
@@ -160,16 +160,7 @@ class Ui_MainWindow(object):
         self.tabWidget_2.setObjectName("tabWidget_2")
         self.tab_5 = QtWidgets.QWidget()
         self.tab_5.setObjectName("tab_5")
-        '''
-        self.scrollArea = QtWidgets.QScrollArea(self.tab_5)
-        self.scrollArea.setGeometry(QtCore.QRect(40, 60, 611, 271))
-        self.scrollArea.setWidgetResizable(True)
-        self.scrollArea.setObjectName("scrollArea")
-        self.scrollAreaWidgetContents = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents.setGeometry(QtCore.QRect(0, 0, 609, 269))
-        self.scrollAreaWidgetContents.setObjectName("scrollAreaWidgetContents")
-        self.scrollArea.setWidget(self.scrollAreaWidgetContents)
-        '''
+      
         self.label_4 = QtWidgets.QLabel(self.tab_5)
         self.label_4.setGeometry(QtCore.QRect(150, 20, 261, 31))
         self.label_4.setStyleSheet("font: 75 16pt \"MS Shell Dlg 2\";\n"
@@ -201,7 +192,7 @@ class Ui_MainWindow(object):
         self.graphicsView.setGeometry(QtCore.QRect(10, 60, 821, 441))
         self.graphicsView.setObjectName("graphicsView")
         self.graphicsView.setStyleSheet("selection-background-color: rgb(255, 255, 255);\n"
-                                                  "font: italic 12pt \"Calibri\";");
+                                                  "font: italic 12pt \"Calibri\";")
 
         self.label_8=QtWidgets.QLabel(self.graphic_view)
         self.label_8.setGeometry(QtCore.QRect(10, 60, 821, 4411))
@@ -214,17 +205,17 @@ class Ui_MainWindow(object):
         self.label_5.setObjectName("label_5")
         self.pushButton_9 = QtWidgets.QPushButton(self.graphic_view)
         #self.pushButton_9.setGeometry(QtCore.QRect(70, 510, 101, 41))
-        self.pushButton_9.setGeometry(QtCore.QRect(710, 100, 131, 41));
+        self.pushButton_9.setGeometry(QtCore.QRect(710, 100, 131, 41))
         self.pushButton_9.setStyleSheet("background-color: rgb(184, 231, 255);")
         self.pushButton_9.setObjectName("pushButton_9")
         self.pushButton_10 = QtWidgets.QPushButton(self.graphic_view)
         #self.pushButton_10.setGeometry(QtCore.QRect(260, 510, 101, 41))
-        self.pushButton_10.setGeometry(QtCore.QRect(710, 160, 131, 41));
+        self.pushButton_10.setGeometry(QtCore.QRect(710, 160, 131, 41))
         self.pushButton_10.setStyleSheet("background-color: rgb(184, 231, 255);")
         self.pushButton_10.setObjectName("pushButton_10")
         self.pushButton_11 = QtWidgets.QPushButton(self.graphic_view)
         #self.pushButton_11.setGeometry(QtCore.QRect(450, 510, 81, 41))
-        self.pushButton_11.setGeometry(QtCore.QRect(710, 220, 131, 41));
+        self.pushButton_11.setGeometry(QtCore.QRect(710, 220, 131, 41))
         self.pushButton_11.setStyleSheet("background-color: rgb(184, 231, 255);")
         self.pushButton_11.setObjectName("pushButton_11")
         self.tabWidget_2.addTab(self.graphic_view, "")
